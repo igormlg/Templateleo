@@ -428,3 +428,29 @@ input[type="radio"].visually-hidden {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+body {
+  background: #242729;
+}
+
+.main-header {
+  max-width: 1280px;
+  min-height: 488px;
+  margin: 0 auto;
+  background: #414549;
+  background-image: url("../../images/header-back-g.png");
+}
+
+.main-footer {
+  max-width: 1280px;
+  min-height: 243px;
+  margin: 0 auto;
+  background: url("../../images/footer-back.jpg");
+}
+
+.user-main {
+  max-width: 1280px;
+  min-height: 1738px;
+  margin: 0 auto;
+  background-color: white;
+}
