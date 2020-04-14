@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
     <title>Templateleo</title>
+    
   </head>
   <body>
     <header class="main-header">
@@ -12,14 +13,20 @@
 
       <nav class="user-navigation">
         <ul class="user-navigation-list">
-          <li ><a  href="#">Solutions</a></li>
+          <li><a href="#">Solutions</a></li>
           <li><a href="#">Products</a></li>
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
 
-      <img class="main-header-img" src="images/header-icon.png" width="331" height="329" alt="Header picture" />
+      <img
+        class="main-header-img"
+        src="images/header-icon.png"
+        width="331"
+        height="329"
+        alt="Header picture"
+      />
 
       <div class="header-titles-wrapper">
         <p class="header-title-text">
@@ -30,140 +37,139 @@
       </div>
     </header>
 
-    <main class="user-main">
+    <main class="user-main ">
       <!-- вкладки -->
-      <section class="main-tabs">
-        <ul>
-          <li>
-            <a href="#main-tab-1">
-              <img src="images/tab-img-01.png" alt="Responsive Websites picture" />
-              <span>Responsive Websites</span>
-            </a>
+      <section class="main-tabs sections-size ">
+        <ul class="main-tabs-header">
+          <li class="main-tabs-header__item item_pic-01 js-tab-trigger active-tab" data-tab="1">
+            Responsive <br> Websites
           </li>
-          <li>
-            <a href="#main-tab-2">
-              <img src="images/tab-img-02.png" alt="e Commerce Websites picture" />
-              <span>e Commerce Websites</span>
-            </a>
+          <li class="main-tabs-header__item item_pic-02 js-tab-trigger" data-tab="2">
+            e Commerce <br> Websites
           </li>
-          <li>
-            <a href="#main-tab-3">
-              <img src="images/tab-img-03.png" alt="Daily blog Websites picture" />
-              <span>Daily blog Websites</span>
-            </a>
+          <li class="main-tabs-header__item item_pic-03 js-tab-trigger" data-tab="3">
+            Daily blog <br> Websites
           </li>
-          <li>
-            <a href="#main-tab-4">
-              <img src="images/tab-img-04.png" alt="Search based Websites picture" />
-              <span>Search based Websites</span>
-            </a>
+          <li class="main-tabs-header__item item_pic-04 js-tab-trigger" data-tab="4">
+            Search based <br> Websites
           </li>
         </ul>
 
-        <div class="main-tabs-items">
-          <div class="main-tab-item">
+        <div class="main-tabs-content">
+          <div class="main-tabs-content__item js-tab-content active-tab " data-tab="1">
             <span>Text 1</span>
           </div>
-          <div class="main-tab-item">
+          <div class="main-tabs-content__item js-tab-content" data-tab="2">
             <img src="images/tab-02-pic.png" alt="The picture of device" />
-            <h2>Lorem Ipsum is simply dummy text</h2>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.
-            </p>
-            <p>
-              It was popularised in the 1960s with the release of Letraset
-              sheets containing Lorem Ipsum passages, and more recently with
-              desktop publishing software like Aldus PageMaker including
-              versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy text ever since the 1500s, when an
-              unknown printer took a galley of type and scrambled it to make a
-              type specimen book. It has survived not only five centuries, but
-              also the leap into electronic typesetting, remaining essentially
-              unchanged. It was popularised in the 1960s with the release of
-              Letraset sheets containing Lorem Ipsum passages, and more recently
-              with desktop publishing software like Aldus PageMaker including
-              versions of Lorem Ipsum.
-            </p>
+            <div class="main-tabs-content__text-cover">
+              <h2>Lorem Ipsum is simply dummy text</h2>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged.
+              </p>
+              <p>
+                It was popularised in the 1960s with the release of Letraset
+                sheets containing Lorem Ipsum passages, and more recently with
+                desktop publishing software like Aldus PageMaker including
+                versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an
+                unknown printer took a galley of type and scrambled it to make a
+                type specimen book. It has survived not only five centuries, but
+                also the leap into electronic typesetting, remaining essentially
+                unchanged. It was popularised in the 1960s with the release of
+                Letraset sheets containing Lorem Ipsum passages, and more recently
+                with desktop publishing software like Aldus PageMaker including
+                versions of Lorem Ipsum.
+              </p>
+            </div>
           </div>
-          <div class="main-tab-item">
+          <div class="main-tabs-content__item js-tab-content" data-tab="3">
             <span>Text 3</span>
           </div>
-          <div class="main-tab-item">
+          <div class="main-tabs-content__item js-tab-content" data-tab="4">
             <span>Text 4</span>
           </div>
         </div>
       </section>
       <!-- конец вкладки -->
 
-      <img src="images/why-choose-pic.png" width="486" height="338" alt="Why choose picture" />
+    <section class="about-us sections-size">
+        <img
+          src="images/why-choose-pic.png"
+          width="486"
+          height="338"
+          alt="Why choose picture"
+        />
+  
+        <h2>Why choose us ?</h2>
+        <ul>
+          <li>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+          </li>
+          <li>Lorem Ipsum has been the industry's standard dummy text ever</li>
+          <li>When an unknown printer took a galley of type and scrambled</li>
+          <li>
+            It has survived not only five centuries, but also the leap into
+            electronic
+          </li>
+          <li>
+            It was popularised in the 1960s with the release of Letraset sheets
+            containing
+          </li>
+          <li>
+            More recently with desktop publishing software like Aldus PageMaker
+          </li>
+        </ul>
+    </section>
 
-      <h2>Why choose us ?</h2>
-      <ul>
-        <li>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-        </li>
-        <li>Lorem Ipsum has been the industry's standard dummy text ever</li>
-        <li>When an unknown printer took a galley of type and scrambled</li>
-        <li>
-          It has survived not only five centuries, but also the leap into
-          electronic
-        </li>
-        <li>
-          It was popularised in the 1960s with the release of Letraset sheets
-          containing
-        </li>
-        <li>
-          More recently with desktop publishing software like Aldus PageMaker
-        </li>
-      </ul>
-
-      <form class="main-form-1" action="#" method="POST">
-        <fieldset>
-          <h2>Member login</h2>
-          <p>
-            <label for="user-name">User name</label>
-            <input
-              id="user-name"
-              name="name"
-              type="text"
-              placeholder="User name"
-            />
-          </p>
-
-          <p>
-            <label for="user-password">Password</label>
-            <input
-              id="user-password"
-              name="password"
-              type="password"
-              placeholder="Password"
-            />
-          </p>
-
-          <button type="submit" value="Enter in your profile">
-            Log me
-          </button>
-        </fieldset>
-      </form>
-
-      <form class="main-form-2" action="#" method="POST">
-        <fieldset>
-          <h2>Subscribe to our weekly newsletter</h2>
-          <p>
-            <label for="user-email">E-mail</label>
-            <input id="user-email" name="email" type="email" />
-          </p>
-          <button type="submit" value="Subscribe">
-            Subscribe
-          </button>
-        </fieldset>
-      </form>
+      <div class="forms-container sections-size">
+        <form class="main-form-1" action="#" method="POST">
+          <fieldset>
+            <h2>Member login</h2>
+            <p>
+              <label for="user-name">User name</label>
+              <input
+                id="user-name"
+                name="name"
+                type="text"
+                placeholder="User name"
+              />
+            </p>
+  
+            <p>
+              <label for="user-password">Password</label>
+              <input
+                id="user-password"
+                name="password"
+                type="password"
+                placeholder="Password"
+              />
+            </p>
+  
+            <button type="submit" value="Enter in your profile">
+              Log me
+            </button>
+          </fieldset>
+        </form>
+  
+        <form class="main-form-2" action="#" method="POST">
+          <fieldset>
+            <h2>Subscribe to our weekly newsletter</h2>
+            <p>
+              <label for="user-email">E-mail</label>
+              <input id="user-email" name="email" type="email" />
+            </p>
+            <button type="submit" value="Subscribe">
+              Subscribe
+            </button>
+          </fieldset>
+        </form>
+      </div>
     </main>
 
     <footer class="main-footer">
@@ -202,5 +208,7 @@
       <h2>Leo/-</h2>
       <span>&copy; cssauthor.com</span>
     </footer>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
