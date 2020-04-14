@@ -31,7 +31,7 @@
 }
 
 @font-face {
-  font-family: "Univers_Light_Light";
+  font-family: "Univers_Light";
   src: url("../fonts/Univers_Light_Light.woff") format("woff");
   font-weight: normal;
   font-style: normal;
@@ -596,6 +596,8 @@ body {
   font-family: "Segoi_UI_Light", sans-serif;
   font-size: 18px;
   text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   cursor: pointer;
 }
 
@@ -632,6 +634,7 @@ body {
 
 .main-tabs-content__item {
   display: none;
+  border-radius: 5px;
 }
 
 .main-tabs-content__item.active-tab {
@@ -649,6 +652,7 @@ body {
   margin-top: 22px;
   padding-left: 54px;
   margin-right: 76px;
+  padding-bottom: 66px;
 }
 
 .main-tabs-content__text-cover > h2 {
@@ -659,4 +663,71 @@ body {
 .main-tabs-content__text-cover > p {
   font-family: "Segoi_UI_Light", sans-serif;
   color: #868686;
+}
+
+.about-us-size {
+  margin-right: 50px;
+  padding-top: 28px;
+  padding-bottom: 60px;
+}
+
+.about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-us__item {
+  margin-left: 44px;
+}
+
+.about-us__item:first-child {
+  margin-left: -15px;
+}
+
+.about-us__item-title {
+  padding: 0;
+  margin: 0;
+  padding-top: 28px;
+  font-family: "Segoi_UI_Light", sans-serif;
+  font-size: 32px;
+  color: #6e6e6e;
+}
+
+.about-us__item-list {
+  padding: 0;
+  margin: 0;
+  padding-top: 25px;
+  font-family: "Univers_Light_Light", sans-serif;
+  color: #868686;
+  list-style: none;
+}
+
+.item-list-text {
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 34px;
+}
+
+.item-list-text::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  width: 18px;
+  height: 18px;
+  background-image: url("../../images/check-pic.png");
+}
+
+.forms-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid #868686;
+  padding-top: 24px;
+  background-color: pink;
+}
+
+.main-form-1, .main-form-2 {
+  max-width: 470px;
+  margin-right: 66px;
 }

@@ -1,10 +1,5 @@
 @charset 'utf-8';
 
-@import 
-"fonts", 
-"normalize8.0.1", 
-"custom_settings";
-@import 
-"blocks/header",
-"blocks/footer",
-"blocks/main_section";
+@import "fonts", "normalize8.0.1", "custom_settings";
+@import "blocks/header", "blocks/footer", "blocks/main_section",
+  "blocks/about_us", "blocks/forms";

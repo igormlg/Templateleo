@@ -30,6 +30,8 @@
   font-family: "Segoi_UI_Light", sans-serif;
   font-size: 18px;
   text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 
   cursor: pointer;
   &.active-tab {
@@ -61,6 +63,8 @@
   }
 .main-tabs-content__item {
   display: none;
+  border-radius: 5px;
+ 
   
 }
 .main-tabs-content__item.active-tab {
@@ -78,6 +82,7 @@
   margin-top: 22px;
   padding-left: 54px;
   margin-right: 76px;
+  padding-bottom: 66px;
 
   > h2 {
     font-family: "Segoi_UI_Light", sans-serif;

@@ -1,0 +1,10 @@
+.forms-container {
+    display: flex;
+    border-top: 1px solid $text-color-01;
+    padding-top: 24px;
+    background-color: pink;
+}
+.main-form-1, .main-form-2 {
+    max-width: 470px;
+    margin-right: 66px;
+}

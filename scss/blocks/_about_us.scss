@@ -1,0 +1,46 @@
+.about-us-size {
+  margin-right: 50px;
+
+  padding-top: 28px;
+  padding-bottom: 60px;
+}
+.about-us {
+  display: flex;
+}
+.about-us__item {
+  margin-left: 44px;
+}
+.about-us__item:first-child {
+  margin-left: -15px;
+}
+.about-us__item-title {
+  padding: 0;
+  margin: 0;
+  padding-top: 28px;
+  font-family: "Segoi_UI_Light", sans-serif;
+  font-size: 32px;
+  color: #6e6e6e;
+}
+.about-us__item-list {
+  padding: 0;
+  margin: 0;
+  padding-top: 25px;
+  font-family: "Univers_Light_Light", sans-serif;
+  color: $text-color-01;
+
+  list-style: none;
+}
+.item-list-text {
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 34px;
+
+  &::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 18px;
+    height: 18px;
+    background-image: url("../../images/check-pic.png");
+  }
+}
