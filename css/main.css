@@ -434,11 +434,126 @@ body {
 }
 
 .main-header {
+  position: relative;
   max-width: 1280px;
   min-height: 488px;
   margin: 0 auto;
   background: #414549;
   background-image: url("../../images/header-back-g.png");
+}
+
+.main-title {
+  position: absolute;
+  top: 30px;
+  left: 220px;
+  margin: 0;
+  padding: 0;
+  font-family: "MrsEavesItalic_Italic", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 118px;
+  color: white;
+  letter-spacing: 4px;
+  opacity: 68%;
+}
+
+.user-navigation {
+  max-width: 476px;
+  margin-left: 628px;
+  padding-top: 50px;
+}
+
+.user-navigation-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.user-navigation-list li {
+  margin-right: 52px;
+}
+
+.user-navigation-list li:hover, .user-navigation-list li:active, .user-navigation-list li:focus {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.user-navigation-list a {
+  font-family: "Segoi_UI_Light", Arial, Helvetica, sans-serif;
+  font-size: 22.5px;
+  color: white;
+  opacity: 68%;
+}
+
+.user-navigation-list a:hover, .user-navigation-list a:focus, .user-navigation-list a:active {
+  opacity: 100%;
+  text-shadow: #242729 2px 3px 4px;
+}
+
+.user-navigation-list li:nth-child(4n) {
+  margin-right: 0;
+}
+
+.main-header-img {
+  position: absolute;
+  top: 199px;
+  left: 250px;
+}
+
+.header-titles-wrapper {
+  margin-top: 164px;
+  padding-left: 656px;
+}
+
+.header-title-text {
+  position: relative;
+  font-family: "Myriad_Pro", sans-serif;
+  font-size: 44px;
+  color: white;
+}
+
+.header-title-text b {
+  font-size: 64px;
+}
+
+.header-title-text::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -598px;
+  height: 50px;
+  width: 50px;
+  background-image: url("../../images/header-back.png");
+  cursor: pointer;
+}
+
+.header-title-text::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 57px;
+  height: 50px;
+  width: 50px;
+  background-image: url("../../images/header-next.png");
+  cursor: pointer;
+}
+
+.header-title-button {
+  display: inline-block;
+  padding-left: 19px;
+  padding-right: 26px;
+  padding-top: 7px;
+  padding-bottom: 9px;
+  font-family: "Segoi_UI_Light", Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: white;
+  background-color: #206545;
+}
+
+.header-title-button:hover {
+  -webkit-box-shadow: 1px 0 5px 5px #232524;
+          box-shadow: 1px 0 5px 5px #232524;
 }
 
 .main-footer {

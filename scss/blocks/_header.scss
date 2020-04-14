@@ -1,10 +1,124 @@
+$max-wid-doc: 1280px;
+
 body {
-    background: rgb(36, 39, 41);
+  background: rgb(36, 39, 41);
 }
 .main-header {
-  max-width: 1280px;
+  position: relative;
+  max-width: $max-wid-doc;
   min-height: 488px;
   margin: 0 auto;
+
   background: rgb(65, 69, 73);
   background-image: url("../../images/header-back-g.png");
+}
+.main-title {
+  position: absolute;
+  top: 30px;
+  left: 220px;
+  margin: 0;
+  padding: 0;
+  font-family: "MrsEavesItalic_Italic", "Franklin Gothic Medium", "Arial Narrow",
+    Arial, sans-serif;
+  font-size: 118px;
+
+  color: white;
+  letter-spacing: 4px;
+  opacity: 68%;
+}
+.user-navigation {
+  max-width: 476px;
+  margin-left: 628px;
+  padding-top: 50px;
+}
+.user-navigation-list {
+  display: flex;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    margin-right: 52px;
+    &:hover,
+    &:active,
+    &:focus {
+      transform: scale(1.2);
+    }
+  }
+
+  a {
+    font-family: "Segoi_UI_Light", Arial, Helvetica, sans-serif;
+    font-size: 22.5px;
+    color: white;
+    opacity: 68%;
+
+    &:hover,
+    &:focus,
+    &:active {
+      opacity: 100%;
+      text-shadow: rgb(36, 39, 41) 2px 3px 4px;
+    }
+  }
+
+  li:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+
+.main-header-img {
+  position: absolute;
+  top: 199px;
+  left: 250px;
+}
+.header-titles-wrapper {
+  margin-top: 164px;
+  padding-left: 656px;
+}
+.header-title-text {
+  position: relative;
+  font-family: "Myriad_Pro", sans-serif;
+  font-size: 44px;
+  color: white;
+  b {
+    font-size: 64px;
+  }
+  
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -598px;
+    height: 50px;
+    width: 50px;
+    background-image: url("../../images/header-back.png");
+    cursor: pointer;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 57px;
+
+    height: 50px;
+    width: 50px;
+    background-image: url("../../images/header-next.png");
+    cursor: pointer;
+  }
+}
+.header-title-button {
+  display: inline-block;
+  padding-left: 19px;
+  padding-right: 26px;
+  padding-top: 7px;
+  padding-bottom: 9px;
+
+  font-family: "Segoi_UI_Light", Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: white;
+  background-color: #206545;
+
+  &:hover {
+    box-shadow: 1px 0 5px 5px #232524;
+  }
 }
