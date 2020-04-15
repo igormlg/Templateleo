@@ -1,5 +1,5 @@
 $max-wid-doc: 1280px;
-$text-color-01: #868686; 
+$text-color-01: #868686;
 
 body {
   background: rgb(36, 39, 41);
@@ -33,17 +33,15 @@ body {
   padding-top: 50px;
 }
 .user-navigation-list {
-  
-
   display: flex;
-  justify-content: flex-end;;
+  justify-content: flex-end;
   list-style: none;
   margin: 0;
   padding: 0;
 
   li {
     margin-right: 52px;
-    
+
     &:hover,
     &:active,
     &:focus {
@@ -87,7 +85,7 @@ body {
   b {
     font-size: 64px;
   }
-  
+
   &::before {
     content: "";
     position: absolute;
