@@ -556,10 +556,120 @@ body {
 }
 
 .main-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   max-width: 1280px;
   min-height: 243px;
   margin: 0 auto;
+  padding-top: 28px;
+  padding-left: 92px;
   background: url("../../images/footer-back.jpg");
+}
+
+.footer-about-us-container {
+  width: 188px;
+}
+
+.footer-about-us-container h2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 18px;
+  font-family: "Segoi_UI_Light";
+  font-size: 22px;
+  color: #9a9a9a;
+}
+
+.footer-about-us-container ul {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #6e6f6f;
+  list-style: none;
+}
+
+.footer-about-us-container ul li {
+  padding-bottom: 8px;
+}
+
+.footer-test-container {
+  width: 362px;
+  padding-right: 42px;
+}
+
+.footer-test-container h2 {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoi_UI_Light";
+  font-size: 22px;
+  color: #9a9a9a;
+}
+
+.footer-test-container p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 22px;
+  color: #6e6f6f;
+}
+
+.footer-test-container p b {
+  color: #9a9a9a;
+}
+
+.test-container-head-cover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.footer-button-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-button {
+  height: 16px;
+  width: 16px;
+  font-size: 0;
+  border-radius: 50%;
+  text-decoration: none;
+  border: none;
+  background-color: #4d4c4d;
+  cursor: pointer;
+}
+
+.footer-button-img1 {
+  margin-right: 8px;
+  background-image: url("../../images/footer-back.png");
+}
+
+.footer-button-img2 {
+  background-image: url("../../images/footer-next.png");
+}
+
+.footer-copy-container {
+  padding-top: 40px;
+}
+
+.footer-copy-container h2 {
+  margin: 0;
+  padding: 0;
+  font-family: "MrsEavesItalic_Italic", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 118px;
+  color: #6e6f6f;
+}
+
+.footer-copy-container span {
+  color: #9a9a9a;
 }
 
 .user-main {
