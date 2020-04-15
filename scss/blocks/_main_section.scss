@@ -47,25 +47,23 @@
   background-repeat: no-repeat;
 }
 .item_pic-02 {
-    background-image: url("/images/tab-img-02.png");
-    background-position: 52px 27px;
-    background-repeat: no-repeat;
-  }
-  .item_pic-03 {
-    background-image: url("/images/tab-img-03.png");
-    background-position: 52px 27px;
-    background-repeat: no-repeat;
-  }
-  .item_pic-04 {
-    background-image: url("/images/tab-img-04.png");
-    background-position: 52px 27px;
-    background-repeat: no-repeat;
-  }
+  background-image: url("/images/tab-img-02.png");
+  background-position: 52px 27px;
+  background-repeat: no-repeat;
+}
+.item_pic-03 {
+  background-image: url("/images/tab-img-03.png");
+  background-position: 52px 27px;
+  background-repeat: no-repeat;
+}
+.item_pic-04 {
+  background-image: url("/images/tab-img-04.png");
+  background-position: 52px 27px;
+  background-repeat: no-repeat;
+}
 .main-tabs-content__item {
   display: none;
   border-radius: 5px;
- 
-  
 }
 .main-tabs-content__item.active-tab {
   display: block;
@@ -75,7 +73,6 @@
     display: block;
     margin: 0 auto;
     margin-top: 57px;
-
   }
 }
 .main-tabs-content__text-cover {
@@ -91,6 +88,5 @@
   > p {
     font-family: "Segoi_UI_Light", sans-serif;
     color: $text-color-01;
-
   }
 }
