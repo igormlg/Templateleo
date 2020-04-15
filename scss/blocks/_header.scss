@@ -29,18 +29,21 @@ body {
 }
 .user-navigation {
   max-width: 476px;
-  margin-left: 628px;
+  margin-left: auto;
   padding-top: 50px;
 }
 .user-navigation-list {
-  display: flex;
+  
 
+  display: flex;
+  justify-content: flex-end;;
   list-style: none;
   margin: 0;
   padding: 0;
 
   li {
     margin-right: 52px;
+    
     &:hover,
     &:active,
     &:focus {
@@ -62,9 +65,9 @@ body {
     }
   }
 
-  li:nth-child(4n) {
-    margin-right: 0;
-  }
+  // li:nth-child(4n) {
+  //   margin-right: 0;
+  // }
 }
 
 .main-header-img {

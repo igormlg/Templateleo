@@ -1,10 +1,100 @@
-.forms-container {
-    display: flex;
-    border-top: 1px solid $text-color-01;
-    padding-top: 24px;
-    background-color: pink;
+.forms-size {
+  width: 100%;
+  margin-left: 0;
 }
-.main-form-1, .main-form-2 {
-    max-width: 470px;
-    margin-right: 66px;
+.forms-container {
+  display: flex;
+  min-height: 110px;
+  border-top: 1px solid #e8e8e8;
+  padding-top: 24px;
+  padding-left: 130px;
+  padding-bottom: 35px;
+}
+.main-form-1,
+.main-form-2 {
+  margin: 0;
+  padding: 0;
+  padding-top: 12px;
+ 
+
+  max-width: 472px;
+  margin-right: 66px;
+  border-radius: 5px;
+}
+.main-form-1 {
+  margin-right: 66px;
+  background-color: #e67624;
+}
+.main-form-2 {
+  background-color: #01d4f3;
+}
+fieldset {
+  border: none;
+}
+.main-form-1-container {
+  display: flex;
+  align-items: center;
+
+  padding-top: 20px;
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+.main-form-title {
+  font-family: "Segoe_WP_Light", sans-serif;
+  font-size: 28px;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.main-form-1-input,
+.main-form-2-input {
+  font-family: "Segoe_WP_Light", sans-serif;
+
+  max-width: 160px;
+  margin-right: 14px;
+  padding-left: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: #e8e8e8;
+  border: none;
+}
+.main-form-2-input {
+  max-width: 266px;
+  margin-right: 52px;
+}
+.form-button-1,
+.form-button-2 {
+  width: 93px;
+  height: 30px;
+
+  font-family: "Segoe_WP_Light", sans-serif;
+  color: white;
+  background-color: #444;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.form-button-2 {
+  width: 111px;
+
+  text-align: center;
+  background-color: #029bb1;
+}
+.main-form-2-content {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+.field_container {
+  margin: 0;
+    padding: 0;
+  
 }
